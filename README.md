@@ -1,6 +1,7 @@
 # ReadBatteryVoltage
 > [!NOTE]
 > We use the ADC module of STM32F1 to read the battery voltage value. 
+
 The ADC module of STM32F1 can read 12 bits
 
 
