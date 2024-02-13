@@ -1,9 +1,12 @@
 # ReadBatteryVoltage
 > [!NOTE]
-> We use the ADC module of STM32F1 to read the battery voltage value. 
+> We use the ADC module of STM32F1 to read the battery voltage value.The ADC module of STM32F1 can read 12 bits.
+>
+> 1. Firstly We choose the STM32F103C8 model via CubeMX.
+> 2. We enable pin PA1 of ADC1.
+> 3. We activate the external oscillator and set the debug mode to serial wire.
+> 4. We open the codes by clicking Generate Code.
 
-> [!NOTE]
-> The ADC module of STM32F1 can read 12 bits 
 
 
 
